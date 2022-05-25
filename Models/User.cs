@@ -8,6 +8,6 @@ namespace Gemporia_Event_Calendar.Models
 {
     public class User : IdentityUser
     {
-
+        public virtual ICollection<Events> Evenst { get; set; }
     }
 }

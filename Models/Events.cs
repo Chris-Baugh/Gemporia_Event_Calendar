@@ -17,5 +17,6 @@ namespace Gemporia_Event_Calendar.Models
 
         //Relationships
         public virtual Location Location { get; set; }
+        public virtual User User { get; set; }
     }
 }
