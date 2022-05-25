@@ -18,5 +18,8 @@ namespace Gemporia_Event_Calendar.Data
         {
             base.OnModelCreating(builder);
         }
+
+        public DbSet<Events> Events { get; set; }
+        public DbSet<Location> Locations { get; set; }
     }
 }
